@@ -107,7 +107,7 @@ public class ElevenPercentApplicationContext : ApplicationContext
 
         nint hIcon;
 
-        g.Clear(Color.Transparent);
+        g.Clear(Color.Black);
         g.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit;
         float xOffset;
         if (str.Length == 3)
