@@ -99,13 +99,15 @@ public class ElevenPercentApplicationContext : ApplicationContext
     private static Icon IconFromText(string str)
     {
         Font fontToUse = new Font("Microsoft Sans Serif", 10, FontStyle.Regular, GraphicsUnit.Pixel);
-        Brush brushToUse = new SolidBrush(Color.Black);
+
+        // Changes the color of the icon
+        Brush brushToUse = new SolidBrush(Color.White);
         Bitmap bitmapText = new Bitmap(16, 16);
         Graphics g = Graphics.FromImage(bitmapText);
 
         nint hIcon;
 
-        g.Clear(Color.Transparent);
+        g.Clear(Color.Black);
         g.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit;
         float xOffset;
         if (str.Length == 3)

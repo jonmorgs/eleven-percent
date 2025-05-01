@@ -60,8 +60,8 @@ jobs:
         run : |
           tree .
       # Upload the MSIX package: https://github.com/marketplace/actions/upload-artifact
-      - name: Upload build artifacts
-        uses: actions/upload-artifact@v3
+      - name: Upload EXE
+        uses: actions/upload-artifact@v4
         with:
-          name: MSIX Package
-          path: ElevenPercent\bin\Release\net7.0-windows\eleven-percent.dll
+          name: ElevenPercent-EXE
+          path: eleven-percent\bin\Release\net7.0-windows\win-x64\publish\
