@@ -4,7 +4,7 @@ Show the battery percentage in the system tray in an attempt to improve the Wind
 ![image](https://user-images.githubusercontent.com/6062228/221420954-d1985c24-3191-40d5-8fd8-76dc64d294fd.png)
 
 ## Installing
-- Grab the [latest release](https://github.com/Jmorjsm/eleven-percent/releases/latest).
+- Grab the [latest release](https://github.com/Da-ladder/eleven-percent-white-icon/releases/latest).
 - Extract the zip directory and run `eleven-percent.exe`.
 - To run at startup, right-click the system tray icon and check "Run at startup":
 
